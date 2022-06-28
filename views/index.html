@@ -61,24 +61,24 @@
                         <div class="fw-bold itemTitle">[Item Title]</div>
                         <span class="itemDescription">[Item Description Lorem]</span>
                       </div>
-                      <span class="badge bg-primary rounded-pill">Edit</span>&nbsp;
-                      <span class="badge bg-primary rounded-pill">Delete</span>
+                      <span class="badge bg-primary rounded-pill"><a href="edit-item.html">Edit</a></span>&nbsp;
+                      <span class="badge bg-primary rounded-pill"><a onclick="myFunction()" href="#">Delete</a></span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
                         <div class="fw-bold itemTitle">[Item Title]</div>
                         <span class="itemDescription">[Item Description Lorem]</span>
                       </div>
-                      <span class="badge bg-primary rounded-pill">Edit</span>&nbsp;
-                      <span class="badge bg-primary rounded-pill">Delete</span>
+                      <span class="badge bg-primary rounded-pill"><a href="edit-item.html">Edit</a></span>&nbsp;
+                      <span class="badge bg-primary rounded-pill"><a onclick="myFunction()" href="#">Delete</a></span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
                         <div class="fw-bold itemTitle">[Item Title]</div>
                         <span class="itemDescription">[Item Description Lorem]</span>
                       </div>
-                      <span class="badge bg-primary rounded-pill">Edit</span>&nbsp;
-                      <span class="badge bg-primary rounded-pill">Delete</span>
+                      <span class="badge bg-primary rounded-pill"><a href="edit-item.html">Edit</a></span>&nbsp;
+                      <span class="badge bg-primary rounded-pill"><a onclick="myFunction()" href="#">Delete</a></span>
                     </li>
                   </ol>
                 <div style="float:right"><a href="#addItemButton" class="btn btn-secondary" id="addItemButton">Add Item</a></div>
@@ -98,5 +98,10 @@
     </script>
 
    -->
+<script>
+function myFunction() {
+  confirm("Are you sure you want to delete?");
+}
+</script>
 </body>
 </html>
