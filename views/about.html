@@ -39,26 +39,33 @@
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
-            <div class="container-fluid">
+            <div class="container">
+                <div class="container-fluid">
                 <h1>About</h1>
-                <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+                <p>This application is an online todo list, designed and developed by me, Shar Parsapour, as the final project for Per Scholas Full Stack Developer Bootcamp, July 2022.</p>
+                <p>For this project I used:
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>Hibernate</li>
+                        <li>Thymeleaf</li>
+                        <li>Maridb</li>
+                        <li>DBeaver</li>
+                        <li>Lombok</li>
+                    </ul>
+                </p>
+                <h2>Contact</h2>
+                <a href="mailto:sparsapour@yahoo.com" class="" id="">Email</a>
+                <br />
+                <a href="#" class="" id="">Github</a>
+                </div>
             </div>
         </div>
         <!-- /#page-content-wrapper -->
 
     </div>
     <!-- /#wrapper -->
-
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-
-  
+      <!-- Theme Toggle Script -->
+ 
+      <script src="/js/theme.js"></script>
 </body>
 </html>

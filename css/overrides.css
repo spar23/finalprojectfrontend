@@ -1,6 +1,10 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 90%;
+}
 
 .badge a {
   color:white;
